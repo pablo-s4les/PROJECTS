@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ PROJECTS | pablo-s4les
+# 🛡️ PROJECTS | Pablo Sales
 ### Infra · Security · CyberSec
 
 </div>
