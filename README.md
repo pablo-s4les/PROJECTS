@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Banner / Logo -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=🛡️+PROJECTS+%7C+pablo-s4les;Infra+%7C+Security+%7C+CyberSec;Automating+Defense%2C+One+Script+at+a+Time" alt="Typing SVG" />
+# 🛡️ PROJECTS | pablo-s4les
+### Infra · Security · CyberSec
+
+</div>
 
 <br/>
 
@@ -149,7 +151,7 @@ sudo ./linux-hardening.sh
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-pablo--s4les-181717?style=for-the-badge&logo=github)](https://github.com/pablo-s4les)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pablo-s4les)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pablogsales)
 
 </div>
 
