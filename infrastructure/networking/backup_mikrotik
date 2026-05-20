@@ -1,0 +1,53 @@
+:local date [/system clock get date]
+:set date ([:pick $date 7 11] . "-" . [:pick $date 0 3] . "-" . [:pick $date 4 6])
+
+
+:local fname ("backup-" . $date)
+:log info ("Iniciando backup com nome: $fname")
+
+
+/export file=$fname
+/system backup save name=$fname
+
+:delay 5s
+
+:local backupFile ($fname . ".backup")
+:local rscFile ($fname . ".rsc")
+
+:log info ("Backup finalizado: $fname")
+:log info ("Arquivo gerado: $backupFile")
+:log info ("Arquivo gerado: $rscFile")
+
+# Envia os arquivos por e-mail
+/tool e-mail send to="backup@dominio.com.br" subject=("==> BACKUP-MIKROTIK <==") body="BACKUP GERAL MIKROTIK" file=$backupFile
+/tool e-mail send to="backup@dominio.com.br" subject=("==> BACKUP-MIKROTIK <==") body="BACKUP EXTRA MIKROTIK" file=$rscFile
+
+:local months {"jan"=1; "feb"=2; "mar"=3; "apr"=4; "may"=5; "jun"=6; "jul"=7; "aug"=8; "sep"=9; "oct"=10; "nov"=11; "dec"=12}
+
+:local currentDate [/system clock get date]
+:local currentDay [:tonum [:pick $currentDate 4 6]]
+:local currentMonthStr [:pick $currentDate 0 3]
+:local currentMonthNum ($months->$currentMonthStr)
+:local currentYear [:tonum [:pick $currentDate 7 11]]
+
+:foreach id in=[/file find] do={
+
+    :local name [/file get $id name]
+
+    :if ([:find $name "backup-"] = 0) do={
+
+        :local fileYear [:tonum [:pick $name 7 11]]
+        :local fileMonthStr [:pick $name 12 15]
+        :local fileMonthNum ($months->$fileMonthStr)
+        :local fileDay [:tonum [:pick $name 16 18]]
+
+        :local fileDateDays ( $fileYear * 365 + $fileMonthNum * 30 + $fileDay )
+        :local currentDateDays ( $currentYear * 365 + $currentMonthNum * 30 + $currentDay )
+        :local ageDays ($currentDateDays - $fileDateDays)
+
+        :if ($ageDays >= 7) do={
+            :log info ("Removendo backup com $ageDays dias: $name")
+            /file remove $id
+        }
+    }
+}
