@@ -64,10 +64,10 @@ PROJECTS/
 
 | Projeto | Área | Descrição | Status |
 |--------|------|-----------|--------|
-| `infra-hardening` | 🖥️ Infra + 🔐 Segurança | Scripts de hardening automatizado para Linux | 🟢 Ativo |
+| `infra-hardening` | 🖥️ Infra + 🔐 Segurança | Scripts de hardening automatizado para Linux | 🟡 Em dev |
 | `vuln-scanner` | 🛡️ CyberSec | Scanner de vulnerabilidades com relatório em HTML | 🟡 Em dev |
 | `network-monitor` | 🖥️ Infra | Monitoramento de rede com alertas via Telegram | 🟢 Ativo |
-| `ctf-toolkit` | 🛡️ CTF | Conjunto de ferramentas para competições CTF | 🔵 Estável |
+| `ctf-toolkit` | 🛡️ CTF | Conjunto de ferramentas para competições CTF | 🟡 Em dev |
 | `iac-templates` | 🖥️ IaC | Templates Terraform para ambientes seguros na AWS | 🟡 Em dev |
 
 ---
