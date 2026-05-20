@@ -4,8 +4,8 @@
 # CONFIGURAÇÕES
 # ==========================================
 
-IP_PABX="172.25.0.60"
-GKEY="talk@123"
+IP_PABX="ip.ip.ip.ip"
+GKEY="chavekey"
 
 # Cole aqui o cookie da sua sessão logada
 COOKIE="PHPSESSID=ekm2kj1qr66h8i5sjuulsfv0s2;"
@@ -15,13 +15,13 @@ PAGINA_INICIAL=1
 PAGINA_FINAL=5
 
 # Diretório onde as gravações serão armazenadas
-DEST_DIR="$HOME/Gravações CAU/2025/Novembro/Fila_ANUIDADE_612"
+DEST_DIR="$HOME/Diretorio"
 
 # Cria diretório
-mkdir -p ${HOME}/Gravações\ CAU/2025/Novembro/Fila_ANUIDADE_612
+mkdir -p ${HOME}/Diretorio
 
 # A URL base. Adicione aqui os parâmetros de data caso a pesquisa do mês adicione isso na URL
-BASE_URL="http://${IP_PABX}/callcenter/index.php?action=detalhar_atendidas_por_ramal&go=Relatorio_callcenter&&fluxo=recebidas&tipo=fila&ramal=612"
+BASE_URL="http://${IP_PABX}/callcenter/index.php?action=detalhar_atendidas_por_ramal&go=Relatorio_callcenter&&fluxo=recebidas&tipo=fila&ramal=123"
 
 # ==========================================
 # INÍCIO DO SCRIPT
