@@ -134,6 +134,7 @@ sudo ./linux-hardening.sh
 - 🔗 [CIS Benchmarks](https://www.cisecurity.org/cis-benchmarks)
 - 🔗 [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - 🔗 [HackTricks](https://book.hacktricks.xyz/)
+- 🔗 [PCI DSS](https://www.pcisecuritystandards.org/standards/pci-dss/)
 - 🔗 [GTFOBins](https://gtfobins.github.io/)
 - 🔗 [CVE Mitre](https://cve.mitre.org/)
 
