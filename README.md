@@ -137,8 +137,8 @@ sudo ./linux-hardening.sh
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pablo-s4les&show_icons=true&theme=chartreuse-dark&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pablo-s4les&layout=compact&theme=chartreuse-dark&hide_border=true)
+![GitHub followers](https://img.shields.io/github/followers/pablo-s4les?style=for-the-badge&logo=github&color=00FF41)
+![GitHub stars](https://img.shields.io/github/stars/pablo-s4les?style=for-the-badge&logo=github&color=blueviolet)
 
 </div>
 
