@@ -53,9 +53,7 @@ O **OCS Inventory NG** (Open Computers and Software Inventory Next Generation) f
 | Máquinas Windows | **561** |
 | Máquinas Unix/Linux | **4** |
 | Sistemas operacionais distintos | **11** |
-| Máquinas contactadas hoje | **151** |
-| Máquinas Windows ativas hoje | **149** |
-| Máquinas Unix ativas hoje | **2** |
+
 
 ---
 
