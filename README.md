@@ -87,7 +87,7 @@ PROJECTS/
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![OCS Inventory](https://img.shields.io/badge/OCS%20Inventory%20NG-6A0DAD?style=flat-square&logo=opencontainersinitiative&logoColor=white)
+![OCS Inventory](https://img.shields.io/badge/OCS%20Inventory-6A0DAD?style=flat-square&logo=opencontainersinitiative&logoColor=white)
 ![Graylog](https://img.shields.io/badge/Graylog-CC2936?style=flat-square&logo=graylog&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
