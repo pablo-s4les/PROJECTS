@@ -60,7 +60,7 @@ O **OCS Inventory NG** (Open Computers and Software Inventory Next Generation) f
 ## 📸 Evidências
 
 ### Login — Console Web
-![OCS Inventory Login](evidence/ocs_login.jpeg)
+![OCS Inventory Login](evidence/ocs_login.jp)
 
 ---
 
