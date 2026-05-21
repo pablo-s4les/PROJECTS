@@ -66,7 +66,7 @@ PROJECTS/
 
 | Projeto | Área | Descrição | Status |
 |--------|------|-----------|--------|
-| [audit-si](docs/academic/README.md#-getrecordssh--download-de-gravações-fortics-pbx) | 🔐 Segurança | Trabalho de auditoria em segurança da informação | ✅ Concluído |
+| [Auditoria VirtuaTech](docs/academic/auditoria/README.md) | 📚 Acadêmico | RFA — ISO 27001:2022 · PCI DSS v4.0.1 | ✅ Concluído |
 | [getrecords](scripts/bash/README.md#-getrecordssh--download-de-gravações-fortics-pbx) | 🖥️ Infra + ⚙️ Scripts | Download automatizado de gravações via API Fortics PBX | 🟢 Ativo |
 | [backup_vms_esxi](scripts/bash/README.md#-backup_vms_esxish--backup-de-vms-vmware-esxi) | 🖥️ Infra + ⚙️ Scripts | Backup automatizado de VMs no VMware ESXi via SSH | 🟢 Ativo |
 | `infra-hardening` | 🖥️ Infra + 🔐 Segurança | Scripts de hardening automatizado para Linux | 🟡 Em dev |
