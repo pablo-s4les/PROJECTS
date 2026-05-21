@@ -57,7 +57,7 @@ chmod +x backup_vms_esxi.sh
 
 ### 📸 Evidência de Execução
 
-![backup_vms_esxi output](evidence/backup_vms_esxi-output.png)
+![backup_vms_esxi output](evidence/esxi_backup.png)
 
 ### 🔗 Script
 👉 [backup_vms_esxi.sh](backup_vms_esxi.sh)
