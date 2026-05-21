@@ -64,8 +64,8 @@ PROJECTS/
 
 | Projeto | Área | Descrição | Status |
 |--------|------|-----------|--------|
-| `getrecords.sh` | 🖥️ Scripts/Bash | Download automatizado de gravações via API Fortics PBX | 🟢 Ativo |
-| `backup_vms_esxi.sh` | 🖥️ Scripts/Bash | Backup automatizado de VMs no VMware ESXi via SSH | 🟢 Ativo |
+| [getrecords.sh](scripts/bash/README.md#-getrecordssh--download-de-gravações-fortics-pbx) | 🖥️ Scripts/Bash | Download automatizado de gravações via API Fortics PBX | 🟢 Ativo |
+| [backup_vms_esxi.sh](scripts/bash/README.md#-backup_vms_esxish--backup-de-vms-vmware-esxi) | 🖥️ Scripts/Bash | Backup automatizado de VMs no VMware ESXi via SSH | 🟢 Ativo |
 | `infra-hardening` | 🖥️ Infra + 🔐 Segurança | Scripts de hardening automatizado para Linux | 🟡 Em dev |
 | `vuln-scanner` | 🛡️ CyberSec | Scanner de vulnerabilidades com relatório em HTML | 🟡 Em dev |
 | `network-monitor` | 🖥️ Infra | Monitoramento de rede com alertas via Telegram | 🟢 Ativo |
