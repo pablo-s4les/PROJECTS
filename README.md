@@ -55,7 +55,9 @@ PROJECTS/
 │
 └── 📁 docs/                    # Documentação, checklists e referências
     ├── checklists/
-    └── references/
+    ├── references/
+    └── academic/
+    
 ```
 
 ---
