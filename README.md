@@ -34,8 +34,10 @@ PROJECTS/
 │   ├── ansible/                # Playbooks e roles Ansible
 │   ├── terraform/              # Infraestrutura como código (AWS, Azure, GCP)
 │   ├── docker/                 # Compose files e Dockerfiles
-│   └── networking/             # Configurações de rede, VPN, firewall
-│
+│   ├── networking/             # Configurações de rede, VPN, firewall
+│   ├── ocs-inventory/          # Detalhes de implantação  
+|   └── graylog/                # Detalhes de implantação
+|
 ├── 📁 security/                # Hardening, políticas e conformidade
 │   ├── hardening/              # Scripts de hardening (Linux, Windows)
 │   ├── compliance/             # CIS Benchmarks, NIST, ISO 27001
@@ -67,6 +69,8 @@ PROJECTS/
 | Projeto | Área | Descrição | Status |
 |--------|------|-----------|--------|
 | [Auditoria VirtuaTech](docs/academic/auditoria/README.md) | 🔐 Segurança | RFA — ISO 27001:2022 · PCI DSS v4.0.1 | ✅ Concluído |
+| [Graylog](infrastructure/graylog/README.md) | 🖥️ Infra + 🔐 Segurança | SIEM implantado em produção — centralização de logs | 🟢 Ativo |
+| [OCS Inventory NG](infrastructure/ocs-inventory/README.md) | 🖥️ Infra | Gestão de 565 ativos em produção | 🟢 Ativo |
 | [getrecords](scripts/bash/README.md#-getrecordssh--download-de-gravações-fortics-pbx) | 🖥️ Infra + ⚙️ Scripts | Download automatizado de gravações via API Fortics PBX | 🟢 Ativo |
 | [backup_vms_esxi](scripts/bash/README.md#-backup_vms_esxish--backup-de-vms-vmware-esxi) | 🖥️ Infra + ⚙️ Scripts | Backup automatizado de VMs no VMware ESXi via SSH | 🟢 Ativo |
 | `infra-hardening` | 🖥️ Infra + 🔐 Segurança | Scripts de hardening automatizado para Linux | 🟡 Em dev |
@@ -83,6 +87,8 @@ PROJECTS/
 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![OCS Inventory](https://img.shields.io/badge/OCS%20Inventory%20NG-6A0DAD?style=flat-square&logo=opencontainersinitiative&logoColor=white)
+![Graylog](https://img.shields.io/badge/Graylog-CC2936?style=flat-square&logo=graylog&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
