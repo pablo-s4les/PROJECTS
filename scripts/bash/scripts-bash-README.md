@@ -31,7 +31,7 @@ chmod +x getrecords.sh
 
 ### 📸 Evidência de Execução
 
-![getrecords output](evidence/getrecords-output.png)
+![getrecords output](evidence/getrecords-output.jpeg)
 
 ### 🔗 Script
 👉 [getrecords.sh](getrecords.sh)
