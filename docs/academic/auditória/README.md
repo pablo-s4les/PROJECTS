@@ -173,4 +173,4 @@ Todas as **16 evidências** foram coletadas com hash SHA-256, assinadas digitalm
 
 ---
 
-<sub>🔙 <a href="../../README.md">Voltar ao README principal</a> · 📚 <a href="../cti/README.md">Próximo trabalho: CTI →</a></sub>
+<sub>🔙 <a href="../../../README.md">Voltar ao README principal</a> · 📚 <a href="../cti/README.md">Próximo trabalho: CTI →</a></sub>
