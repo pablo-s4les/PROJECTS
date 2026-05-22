@@ -70,7 +70,7 @@ PROJECTS/
 |--------|------|-----------|--------|
 | [Auditoria VirtuaTech](docs/academic/auditoria/README.md) | 🔐 Segurança | RFA — ISO 27001:2022 · PCI DSS v4.0.1 | ✅ Concluído |
 | [Graylog](infrastructure/graylog/README.md) | 🖥️ Infra + 🔐 Segurança | SIEM implantado em produção — centralização de logs | 🟢 Ativo |
-| [OCS Inventory NG](infrastructure/ocs-inventory/README.md) | 🖥️ Infra | Gestão de 565 ativos em produção | 🟢 Ativo |
+| [OCS Inventory NG](infrastructure/ocs-inventory/README.md) | 🖥️ Infra | Gestão de ativos em produção | 🟢 Ativo |
 | [getrecords](scripts/bash/README.md#-getrecordssh--download-de-gravações-fortics-pbx) | 🖥️ Infra + ⚙️ Scripts | Download automatizado de gravações via API Fortics PBX | 🟢 Ativo |
 | [backup_vms_esxi](scripts/bash/README.md#-backup_vms_esxish--backup-de-vms-vmware-esxi) | 🖥️ Infra + ⚙️ Scripts | Backup automatizado de VMs no VMware ESXi via SSH | 🟢 Ativo |
 | `infra-hardening` | 🖥️ Infra + 🔐 Segurança | Scripts de hardening automatizado para Linux | 🟡 Em dev |
