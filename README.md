@@ -105,6 +105,8 @@ PROJECTS/
 ![Metasploit](https://img.shields.io/badge/Metasploit-2A2A2A?style=flat-square&logo=metasploit&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Parrot OS](https://img.shields.io/badge/Parrot%20OS-15E0ED?style=flat-square&logo=parrotsecurity&logoColor=black)
+![Qubes OS](https://img.shields.io/badge/Qubes%20OS-3874D8?style=flat-square&logo=qubesos&logoColor=white)
 
 </div>
 
