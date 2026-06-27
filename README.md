@@ -68,6 +68,7 @@ PROJECTS/
 
 | Projeto | Área | Descrição | Status |
 |--------|------|-----------|--------|
+| [Relatório de CTI — Kaseya](docs/academic/auditoria/README.md) | 🛡️ CyberSec | RFI Cyber Threat Intelligence | ✅ Concluído |
 | [Auditoria VirtuaTech](docs/academic/auditoria/README.md) | 🔐 Segurança | RFA — ISO 27001:2022 · PCI DSS v4.0.1 | ✅ Concluído |
 | [Graylog](infrastructure/graylog/README.md) | 🖥️ Infra + 🔐 Segurança | SIEM implantado em produção — centralização de logs | 🟢 Ativo |
 | [OCS Inventory NG](infrastructure/ocs-inventory/README.md) | 🖥️ Infra | Gestão de ativos em produção | 🟢 Ativo |
