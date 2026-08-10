@@ -1,6 +1,6 @@
 #!/usr/bin/python
 ############################################################
-# Requirements:
+# Dependências:
 # pip install scapy
 # pip install termcolor
 ############################################################
@@ -20,7 +20,7 @@ logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
 NAME = "Arp Spoofer"
 VERSION = "1.0"
-DATE = "02/06/2024"
+DATE = "10/08/2026"
 IP_FORWARD = "/proc/sys/net/ipv4/ip_forward"
 
 
