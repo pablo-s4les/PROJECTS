@@ -1,0 +1,14 @@
+import requests
+import sys
+
+website = sys.argv[1]
+wordlist = open(sys.argv[2]).read().splitlines()
+
+for word in wordlist:
+    url = "{}/{}".format(website, word)
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        print("[+] {}".format(url))
+
+
